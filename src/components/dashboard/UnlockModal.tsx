@@ -169,6 +169,7 @@ const UnlockModal = ({ isOpen, onClose }: UnlockModalProps) => {
                   <h3 className="text-xl font-medium text-white mb-2">Band Unlocked Successfully</h3>
                   <p className="text-gray-400 text-sm mb-6">
                     Tamper protection has been temporarily disabled. The band will automatically re-lock after 5 minutes.
+                    <p>Torch</p>
                   </p>
                 </div>
               )}

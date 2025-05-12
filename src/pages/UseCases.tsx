@@ -19,7 +19,7 @@ const UseCases = () => {
   const [activeTab, setActiveTab] = useState('personal');
   
   const tabs = [
-    { id: 'personal', label: 'Personal Safety', icon: <Users className="h-5 w-5" /> },
+    { id: 'personal', label: 'Womens Safety', icon: <Users className="h-5 w-5" /> },
     { id: 'elderly', label: 'Elderly Care', icon: <Users className="h-5 w-5" /> },
     { id: 'child', label: 'Child Tracking', icon: <Baby className="h-5 w-5" /> },
     { id: 'outdoor', label: 'Outdoor Adventure', icon: <Mountain className="h-5 w-5" /> },
@@ -30,7 +30,7 @@ const UseCases = () => {
     personal: {
       title: "Women's Safety",
       description: "For women's concerned about their personal safety in various situations, from walking alone at night to traveling in unfamiliar areas.",
-      image: "https://images.pexels.com/photos/4098369/pexels-photo-4098369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: "WomensSafety2.png",
       features: [
         "One-touch SOS alert with immediate notification to emergency contacts",
         "Real-time location sharing with trusted individuals",
@@ -48,8 +48,8 @@ const UseCases = () => {
     },
     elderly: {
       title: "Elderly Care",
-      description: "Provides continuous monitoring for elderly individuals living independently, offering peace of mind to both them and their caregivers.",
-      image: "https://images.pexels.com/photos/7551652/pexels-photo-7551652.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      description: "Provides continuous monitoring for elder individuals living independently, offering peace of mind to both them and their caregivers.",
+      image: "ElderlySafety.png",
       features: [
         "Continuous heart rate and vital sign monitoring",
         "Fall detection with automatic alerts to caregivers",
@@ -68,7 +68,7 @@ const UseCases = () => {
     child: {
       title: "Child Tracking",
       description: "Helps parents keep their children safe by providing location tracking and establishing safe boundaries through geofencing.",
-      image: "https://images.pexels.com/photos/1620769/pexels-photo-1620769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: "KidsCare.png",
       features: [
         "Real-time GPS tracking visible through parent's mobile app",
         "Geofencing capabilities to set safe boundaries",
@@ -296,19 +296,19 @@ const UseCases = () => {
               <div className="h-48 overflow-hidden">
                 <img 
                   src="https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                  alt="Elderly Care" 
+                  alt="Women's Safety" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-6">
                 <div className="inline-block px-3 py-1 bg-primary-500/20 text-primary-400 rounded-full text-xs font-medium mb-4">
-                  Elderly Care
+                  Women's Safety
                 </div>
                 <h3 className="text-xl font-medium text-white mb-2">
                   "Peace of mind for our whole family"
                 </h3>
                 <p className="text-gray-400 text-sm mb-4">
-                  "Since my father started wearing Sanjeevani, I've been able to sleep at night knowing I'll be alerted immediately if anything happens. The fall detection already saved him once when he slipped in the bathroom."
+                "Since my sister started wearing Sanjeevani, I sleep peacefully knowing I’ll be instantly alerted if anything happens. It already saved her once during a dangerous fall. This smart band has truly eased all my worries for her safety."
                 </p>
                 <div className="flex items-center">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-accent-500 p-0.5">

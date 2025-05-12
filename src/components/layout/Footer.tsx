@@ -69,12 +69,12 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link to="/use-cases" className="text-gray-400 hover:text-primary-400 transition-colors text-sm">
-                  Personal Safety
+                  Women Safety
                 </Link>
               </li>
               <li>
                 <Link to="/use-cases" className="text-gray-400 hover:text-primary-400 transition-colors text-sm">
-                  Elderly Care
+                  Womens Safety
                 </Link>
               </li>
               <li>

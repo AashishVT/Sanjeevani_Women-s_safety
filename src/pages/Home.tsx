@@ -173,7 +173,7 @@ const Home = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <SectionHeading 
             title="Advanced Hardware"
-            subtitle="Built with premium components for reliability, accuracy and long battery life."
+            
             centered
           />
           
