@@ -30,7 +30,7 @@ const UseCases = () => {
     personal: {
       title: "Women's Safety",
       description: "For women's concerned about their personal safety in various situations, from walking alone at night to traveling in unfamiliar areas.",
-      image: "WomensSafety2.png",
+      image: "/WomensSafety2.png",
       features: [
         "One-touch SOS alert with immediate notification to emergency contacts",
         "Real-time location sharing with trusted individuals",
@@ -49,7 +49,7 @@ const UseCases = () => {
     elderly: {
       title: "Elderly Care",
       description: "Provides continuous monitoring for elder individuals living independently, offering peace of mind to both them and their caregivers.",
-      image: "ElderlySafety.png",
+      image: "/ElderlySafety.png",
       features: [
         "Continuous heart rate and vital sign monitoring",
         "Fall detection with automatic alerts to caregivers",
@@ -68,7 +68,7 @@ const UseCases = () => {
     child: {
       title: "Child Tracking",
       description: "Helps parents keep their children safe by providing location tracking and establishing safe boundaries through geofencing.",
-      image: "KidsCare.png",
+      image: "/KidsCare.png",
       features: [
         "Real-time GPS tracking visible through parent's mobile app",
         "Geofencing capabilities to set safe boundaries",
