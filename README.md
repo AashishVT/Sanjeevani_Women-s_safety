@@ -1,4 +1,3 @@
-# Sanjeevani_Women-s_safety
 # 🌸 Sanjeevani – A Guardian on Your Wrist 🌸
 
 **Sanjeevani** is a 24×7 real-time wearable safety band designed to detect critical threats like physical assault, unconsciousness, or abnormal body conditions through advanced biometric sensors — and instantly alert guardians or authorities. Created with the goal of **empowering women’s safety**, it combines emotion, technology, and AI into one life-saving device.
